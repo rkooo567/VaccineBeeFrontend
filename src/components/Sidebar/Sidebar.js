@@ -22,12 +22,12 @@ const Sidebar = () => (
         glyph="dashboard"
       />
       <LinksGroup
-        header="Typography"
+        header="Patients booking"
         headerLink="/app/typography"
         glyph="typography"
       />
       <LinksGroup
-        header="Tables Basic"
+        header="Questions List"
         headerLink="/app/tables"
         glyph="tables"
       />

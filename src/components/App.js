@@ -21,6 +21,7 @@ import loadNotFound from 'bundle-loader?lazy!../pages/notFound/NotFound';
 
 import LayoutComponent from '../components/Layout/Layout';
 import LoginComponent from '../pages/login/Login';
+import SearchResultPage from '../pages/tables/SearchResultPage';
 
 // import { auth } from '../config';
 

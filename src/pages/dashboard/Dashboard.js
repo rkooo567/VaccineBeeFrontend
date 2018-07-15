@@ -95,7 +95,7 @@ class Dashboard extends Component {
                 <tbody>
                   <tr>
                     <td>1</td>
-                    <td>Alice</td>
+                    <td>John</td>
                     <td>alice@email.com</td>
                     <td>
                       <span className="py-0 px-1 bg-success rounded text-white">active</span>
@@ -129,45 +129,7 @@ class Dashboard extends Component {
               </Table>
             </Widget>
           </Col>
-          <Col sm={12} md={6}>
-            <Widget title="Alerts">
-              <Alert
-                className="alert-sm"
-                color="warning"
-              >
-                <span className="fw-semi-bold">Warning:</span> Best check yo
-                self, you&#39;re not looking too good.
-              </Alert>
-              <Alert
-                className="alert-sm"
-                color="success"
-              >
-                <span className="fw-semi-bold">Success:</span> You successfully
-                read this important alert message.
-              </Alert>
-              <Alert
-                className="alert-sm"
-                color="info"
-              >
-                <span className="fw-semi-bold">Info:</span> This alert needs
-                your attention, but it&#39;s not super important.
-              </Alert>
-              <Alert
-                className="alert-sm clearfix"
-                color="danger"
-              >
-                <span className="fw-semi-bold">Danger:</span> Change this and
-                that and try again.
-                <span className="pull-right mr-sm">
-                  <Button color="danger" size="sm">
-                    Take this action
-                  </Button>
-                  <span className="px-2"> or </span>
-                  <Button color="default" size="sm">Cancel</Button>
-                </span>
-              </Alert>
-            </Widget>
-          </Col>
+        
         </Row>
         <Row>
           <Col sm={6}>

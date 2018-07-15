@@ -14,12 +14,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: $navbar-height;
-  width: 100%;
+  height: 60px;
+  width: 180px;
   background: $logo-gradient;
 
   a img {
-    width: $sidebar-width-open - 60px;
+    width: $sidebar-width-open;
   }
 }
 

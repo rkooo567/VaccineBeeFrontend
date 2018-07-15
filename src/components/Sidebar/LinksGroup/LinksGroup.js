@@ -46,6 +46,7 @@ class LinksGroup extends Component {
             to={headerLink}
             activeClassName={s.headerLinkActive}
             exact
+            query="search"
           >
             <div>
               {glyph && <Icon glyph={glyph} />}
